@@ -1,6 +1,6 @@
 public class SwitchCaseTests {
-    public void patternUsing() {
-        String fruit = "apple";
+    public void patternUsing(String fruit) {
+//        String fruit = "apple";
         switch (fruit) {
             case "apple" -> System.out.println("Selected apple");
             case "pear" -> System.out.println("Selected pear");
