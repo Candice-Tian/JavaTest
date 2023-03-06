@@ -1,5 +1,5 @@
-public class SwitchCaseTests {
-    public void patternUsing(String fruit) {
+public class FlowTests {
+    public void switchCasePatternUsing(String fruit) {
 //        String fruit = "apple";
         switch (fruit) {
             case "apple" -> System.out.println("Selected apple");
@@ -9,6 +9,12 @@ public class SwitchCaseTests {
                 System.out.println("Good choice!");
             }
             default -> System.out.println("No fruit selected");
+        }
+    }
+    public void foreachTest(){
+        int[] ints={1,2,3,4,5,6};
+        for(var item:ints){
+            System.out.println(item);
         }
     }
 }
